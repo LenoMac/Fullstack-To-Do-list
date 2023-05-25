@@ -92,7 +92,7 @@ h2{
     border-radius: 5px;
 }
 .list{
-    display: none;
+    display: block;
 }
 .list li{
     text-decoration: none;
