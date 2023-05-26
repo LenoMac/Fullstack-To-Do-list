@@ -14,13 +14,27 @@
 <body>
 
     <div class="container">
-        <h2>To-Do List</h2>
-        <div class="add-task">
-            <input type="text" placeholder="Task to be done">
-            <button>Add</button>
+        <div class="left">
+            <h3>Set Notification</h3>
+            <div class="row">
+                <input type="date" id="date">
+                <input type="time" name="" id="time">
+            </div>
+
+            <div class="btns">
+                <button type="reset" class="cancel">Cancel</button>
+                <button type="submit" class="ok">OK</button>
+            </div>
         </div>
-        <ul class="list">
-        </ul>
+        <div class="right">
+            <h2>To-Do List</h2>
+            <div class="add-task">
+                <input type="text" placeholder="Task to be done">
+                <button>Add</button>
+            </div>
+            <ul class="list">
+            </ul>
+        </div>
     </div>
 
 
